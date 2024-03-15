@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>1. Simple Syntax Forms</h1>
+    <form>
+        <div>
+            <label>Enter Full Name</label>
+            <input/>
+        </div>
+        <br/>
+        <div>
+            <label>Enter Email address</label>
+            <input/>
+        </div>
+        <button>SUBMIT</button>
+    </form>
+    <hr/>
+    <h1>2. Form Attributes</h1>
+    <ol>
+        <li>
+            <h3>Type Attribute: </h3>
+            <div>
+                <label>Enter Name</label>
+                <input type="text"/>
+            </div>
+        </li>
+        <li>
+            <h3>Name Attribute: </h3>
+            <div>
+                <label>Enter Password</label>
+                <input type="password" name="12345"/>
+            </div>
+        </li>
+        <li>
+            <h3>value Attribute: </h3>
+            <div>
+                <label>Enter Password</label>
+                <input type="password" name="12345" value="200"/>
+            </div>
+        </li>
+        <li>
+            <h3>CheckBox Attribute: </h3>
+            <div>
+                <label>Id</label>
+                <input type="checkbox"/>
+            </div>
+        </li>
+        <li>
+            <h3>Required Attribute: </h3>
+            <div>
+                <label>Enter PIN: </label>
+                <input type="number" required/>
+            </div>
+        </li>
+        <li>
+            <h3>PlaceHolder Attribute: </h3>
+            <div>
+                <label>Enter AGE: </label>
+                <input type="number"  required placeholder="Enter AGE"/>
+            </div>
+        </li>
+        <li>
+            <h3>MIN & MAX Attribute: </h3>
+            <div>
+                <label>Enter solved sums: </label>
+                <input type="number" min="10" max="100"/>
+            </div>
+        </li>
+        <li>
+            <h3>Step Attribute: </h3>
+            <div>
+                <label>Enter Groups: </label>
+                <input type="number" step="2"/>
+            </div>
+        </li>
+        <li>
+            <h3>Color Attribute: </h3>
+            <div>
+                <label>Enter Theme</label>
+                <input type="color"/>
+            </div>
+        </li>
+        <li>
+            <h3>button Attribute: </h3>
+            <div>
+                <label>Press Button to submit</label>
+                <input type="button"/>
+            </div>
+        </li>
+        <li>
+            <h3>Date Attribute: </h3>
+            <div>
+                <label>Enter DOB:</label>
+                <input type="date"/>
+            </div>
+        </li>
+        <li>
+            <h3>File Attribute: </h3>
+            <div>
+                <label>Upload File: </label>
+                <input type="file"/>
+            </div>
+        </li>
+    </ol>
+    <hr/>
+    <h1>3. Forms Input Types </h1>
+    <ol>
+        <li>
+            <h3>Radio Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="radio"/>
+            </div>
+        </li>
+        <li>
+            <h3>Submit Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="submit"/>
+            </div>
+        </li>
+        <li>
+            <h3>Hidden Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="hidden"/>
+            </div>
+        </li>
+        <li>
+            <h3>DateTime-local Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="datetime-local"/>
+            </div>
+        </li>
+        <li>
+            <h3>month Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="month"/>
+            </div>
+        </li>
+        <li>
+            <h3>time Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="time"/>
+            </div>
+        </li>
+        <li>
+            <h3>week Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="week"/>
+            </div>
+        </li>
+        <li>
+            <h3>range Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="range"/>
+            </div>
+        </li>
+        <li>
+            <h3>Email Type: </h3>
+            <div>
+                <label>Enter Email </label>
+                <input type="email"/>
+            </div>
+        </li>
+        <li>
+            <h3>Search Type: </h3>
+            <div>
+                <label>Enter </label>
+                <input type="search"/>
+            </div>
+        </li>
+        <li>
+            <h3>Button Type: </h3>
+            <div>
+                <label>Enter </label>
+                <button type="submit">Submit</button>
+            </div>
+        </li>
+        <li>
+            <h3>Radio Type: </h3>
+            <div>
+                <label>Enter </label>
+                <button type="reset">Reset</button>
+            </div>
+        </li>
+    </ol>
+    <hr/>
+    <h1>4. Multiple & SINGLE SHOT </h1>
+    <h2>4.1 Single Shot</h2>
+    <div>
+        <label>Programming Languages:</label>
+        <select name="languages">
+            <option selected>Select</option>
+            <option value="java">Java</option>
+            <option value="java">JavaScrpit</option>
+            <option value="java">CSS</option>
+            <option value="java">HTML</option>
+            <option value="java">ReactJs</option>
+            <option value="java">MongoDB</option>
+            <option value="java">NodeJs</option>
+            <option value="java">Angular</option>
+        </select>
+    </div>
+    <h2>4.2 Multiple Shot</h2>
+    <div>
+        <label>Programming Languages:</label>
+        <select name="languages" multiple>
+            <option selected>Select</option>
+            <option value="java">Java</option>
+            <option value="java">JavaScrpit</option>
+            <option value="java">CSS</option>
+            <option value="java">HTML</option>
+            <option value="java">ReactJs</option>
+            <option value="java">MongoDB</option>
+            <option value="java">NodeJs</option>
+            <option value="java">Angular</option>
+        </select>
+    </div>
+    <hr/>
+    <h1>5. FORMS FIELDSET </h1>
+    <h2>5.1 Fieldset</h2>
+    <div>
+        <fieldset>
+            <legend>Select Favourite Color:</legend>
+            <label>Red</label>
+            <input type="radio"/>
+            <br/>
+            <br/>
+            <label>Email</label>
+            <input type="email"/>
+            <br/>
+            <br/>
+            <label>DateTime</label>
+            <input type="datetime"/>
+            <br/>
+            <br/>
+            <label>Tick</label>
+            <input type="checkbox"/>
+        </fieldset>
+    </div>
+    <h2>5.2 Forms OptionGroups</h2>
+    <div>
+        <label>Select your Favourite Languages :</label>
+        <select>
+            <optgroup label="Languages">
+            <option selected>Select</option>
+            <option value="java">Java</option>
+            <option value="java">JavaScrpit</option>
+            <option value="java">CSS</option>
+            <option value="java">HTML</option>
+            <option value="java">ReactJs</option>
+            <option value="java">MongoDB</option>
+            <option value="java">NodeJs</option>
+            <option value="java">Angular</option>
+        </optgroup>
+        <optgroup label="Fruits">
+            <option selected>Select</option>
+            <option value="java">Orange</option>
+            <option value="java">Apple</option>
+            <option value="java">Grapes</option>
+        </select>
+    </div>
+    <h2>5.3 Forms DataList</h2>
+    <table>
+        <label>Enter Browser Name: </label>
+        <input list="browsers"/>
+        <datalist id="browsers">
+            <option value="chrome"/>
+            <option value="Firefox"/>
+            <option value="safari"/>
+            <option value="OPeramini"/>
+            <option value="Edge"/>
+        </datalist>
+    </table>
+</body>
+</html>
