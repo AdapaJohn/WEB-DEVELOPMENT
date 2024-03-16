@@ -1,0 +1,17 @@
+#heading {
+  color: cadetblue;
+  font-style: initial;
+}
+.para {
+  background-color: cadetblue;
+  border-width: 30px;
+  border-color: rgb(127, 161, 76);
+  border-style: dashed;
+  border-radius: 35%;
+}
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
