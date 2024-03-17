@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(100, 148, 119);
+}
+div {
+    background-color: #f7eeef;
+    border-radius: 5%;
+}
+h1 {
+    color: #df3030;
+    text-align: center;
+    font-size: 45px;
+}
+h2 {
+    color: #63c297;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+p {
+    color: #c68ed8;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+}
+ul {
+    list-style: square;
+    margin-left: 20px;
+    text-decoration: none;
+}
+a {
+    color: #a3d858;
+    text-decoration: none;
+    padding: 70px;
+}
+li {
+    text-decoration: none;
+    font-size: 18px;
+}
