@@ -1,0 +1,21 @@
+#header {
+    color: brown;
+    text-align: center;
+    font-size: 3em;
+}
+#Meaning1,#Meaning2 {
+    text-align: justify;
+    font-size: 1.8em;
+    color: rgb(62, 98, 72);
+}
+#p {
+    font-size: 2.3em;
+}
+#div {
+    padding: 8px;
+    border: 1px solid #372020;
+    border-radius: 8px;
+}
+#body{
+    background-color: bisque;
+}
