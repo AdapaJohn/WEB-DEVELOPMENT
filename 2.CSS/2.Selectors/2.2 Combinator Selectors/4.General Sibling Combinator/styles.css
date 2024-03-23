@@ -1,0 +1,38 @@
+body{
+    background-color: #f2f3f4;
+    font-family: 'Times New Roman', Times, serif;
+}
+#receipes {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #cb82c1;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0.1);
+}
+.receipe {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #609ed0;
+}
+.receipe h2 {
+    font-size: 1.8em;
+    color: #000;
+    margin-bottom: 15px;
+}
+.ingredients{
+    background-color: #c2e289;
+    padding: 10px;
+    border-radius: 0px;
+}
+.tips {
+    background-color: #dcc371;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.ingredients ~.tips{
+    background-color: red;
+    font-style: italic;
+    border: 2px dashed rgb(231, 202, 83);
+}
