@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fafafa;
+    margin: 0;
+}
+#container {
+    width: 100%;
+}
+.headline {
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #f1e5d4;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.slide-content {
+    float: inline-end;
+    width: 20%;
+    background-color: #d4ccc5;
+    padding: 10px;
+    margin-right: 30px;
+}
+#coffee-aside {
+    width: 68%;
+    padding: 1%;
+}
+.headline::first-letter{
+    color: #8b4513;
+    font-size: 4em;
+}
+.intro::first-letter {
+    font-weight: bold;
+    background-color: #e6e6e6;
+    padding: 5px;
+    font-size: 3em;
+}
+.content::first-line {
+    background-color: yellow;
+}
