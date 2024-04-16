@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebcccc;
+    margin: 0;
+    padding: 0;
+}
+#recipe-container {
+    width: 80%;
+    margin: auto;
+    background-color: #939fa3;
+    padding: 20px;
+}
+.title {
+    font-size: 2em;
+    color: #13518b;
+}
+p, ul, ol {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* It is used to highlight,select,etc.. */
+
+/* It  is for chrome */
+::selection {
+    background-color: #f9bd16;
+    color: #e3e1e0;
+}
+
+/* It is for mozilla */
+::-moz-selection {
+    background-color: #f9bd16;
+    color: #8b4513;   
+}
+
+/* It is for firefox */
+::-webkit-selection {
+    background-color: #f9bd16;
+    color: #8b4513;
+}
